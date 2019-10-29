@@ -71,7 +71,7 @@
             this.launchItemCTL3.AppFile = "explorer";
             this.launchItemCTL3.AppIcon = null;
             this.launchItemCTL3.AppName = "explorer";
-            this.launchItemCTL3.AppSelColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.launchItemCTL3.AppSelColor = System.Drawing.Color.Yellow;
             this.launchItemCTL3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.launchItemCTL3.Location = new System.Drawing.Point(339, 35);
             this.launchItemCTL3.Name = "launchItemCTL3";
@@ -93,7 +93,7 @@
             // picTest
             // 
             this.picTest.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picTest.Location = new System.Drawing.Point(31, 356);
+            this.picTest.Location = new System.Drawing.Point(31, 231);
             this.picTest.Name = "picTest";
             this.picTest.Size = new System.Drawing.Size(128, 128);
             this.picTest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,9 +103,9 @@
             // launchItemBarCTL1
             // 
             this.launchItemBarCTL1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.launchItemBarCTL1.Location = new System.Drawing.Point(179, 294);
+            this.launchItemBarCTL1.Location = new System.Drawing.Point(165, 231);
             this.launchItemBarCTL1.Name = "launchItemBarCTL1";
-            this.launchItemBarCTL1.Size = new System.Drawing.Size(462, 190);
+            this.launchItemBarCTL1.Size = new System.Drawing.Size(476, 128);
             this.launchItemBarCTL1.TabIndex = 2;
             // 
             // menuStrip1
@@ -114,7 +114,7 @@
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1206, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1078, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -137,14 +137,14 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(647, 35);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(518, 420);
+            this.listBox1.Size = new System.Drawing.Size(416, 316);
             this.listBox1.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1206, 511);
+            this.ClientSize = new System.Drawing.Size(1078, 375);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.launchItemBarCTL1);
             this.Controls.Add(this.picTest);
