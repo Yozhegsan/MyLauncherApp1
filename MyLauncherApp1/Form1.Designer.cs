@@ -33,11 +33,11 @@
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSetup = new System.Windows.Forms.ToolStripMenuItem();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.launchItemCTL3 = new MyLauncherApp1.LaunchItemCTL();
             this.launchItemCTL2 = new MyLauncherApp1.LaunchItemCTL();
             this.launchItemCTL1 = new MyLauncherApp1.LaunchItemCTL();
             this.launchItemBarCTL1 = new MyLauncherApp1.LaunchItemBarCTL();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picTest)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -83,13 +83,6 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(351, 329);
             this.listBox1.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(165, 339);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 20);
-            this.textBox1.TabIndex = 6;
             // 
             // launchItemCTL3
             // 
@@ -144,12 +137,21 @@
             this.launchItemBarCTL1.Size = new System.Drawing.Size(322, 102);
             this.launchItemBarCTL1.TabIndex = 2;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(165, 342);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(856, 372);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.launchItemCTL3);
             this.Controls.Add(this.launchItemCTL2);
             this.Controls.Add(this.launchItemCTL1);
@@ -178,9 +180,9 @@
         private System.Windows.Forms.ToolStripMenuItem mnuSetup;
         private System.Windows.Forms.ListBox listBox1;
         private LaunchItemCTL launchItemCTL1;
-        private System.Windows.Forms.TextBox textBox1;
         private LaunchItemCTL launchItemCTL2;
         private LaunchItemCTL launchItemCTL3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

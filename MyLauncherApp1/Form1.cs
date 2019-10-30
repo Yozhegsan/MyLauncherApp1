@@ -36,9 +36,18 @@ namespace MyLauncherApp1
         {
             if ((nCode >= 0) && (wParam == (IntPtr)WM_KEYDOWN))
             {
+                
                 int vkCode = Marshal.ReadInt32(lParam);
-                if (((Keys)vkCode == Keys.LWin) || ((Keys)vkCode == Keys.RWin))
-                    return (IntPtr)1;
+                if ((Keys)vkCode == Keys.LWin) return (IntPtr)1;
+                if ((Keys)vkCode == Keys.RWin) return (IntPtr)1;
+                if ((Keys)vkCode == Keys.Escape) return (IntPtr)1;
+
+                //if (((Keys)vkCode == Keys.ControlKey) && ((Keys)vkCode == Keys.Escape)) return (IntPtr)1;
+
+                //if (((Keys)vkCode == Keys.ControlKey+Keys.Alt) || ((Keys)vkCode == Keys.Escape)) return (IntPtr)1;
+
+
+
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }
@@ -64,7 +73,7 @@ namespace MyLauncherApp1
 
         private void ShowAppInfo(string obj)
         {
-            textBox1.Text = obj;
+            label1.Text = obj;
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
